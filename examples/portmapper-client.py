@@ -73,14 +73,21 @@ def main():
         print('[+]')
 
         mappings = client.dump()
-        print('[+]     Prog    Vers    Prot    Port')
+        print('[+]        Prog    Vers    Prot    Port    Service')
 
         for item in mappings:
             print('[+]', end='')
-            print(str(item[0]).rjust(9), end='')
+            print(str(item[0]).rjust(12), end='')
             print(str(item[1]).rjust(8), end='')
             print(str(item[2]).rjust(8), end='')
-            print(str(item[3]).rjust(8))
+            print(str(item[3]).rjust(8), end='')
+
+            service_name = sunrpc.services.prog_to_name(item[0])
+            if service_name is not None:
+                print(' ' * 4 + service_name)
+
+            else:
+                print('')
 
     else:
         print('[-] Unknown action :(')

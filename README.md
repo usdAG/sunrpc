@@ -10,7 +10,7 @@ like for example portmappers.
 
 ![](https://github.com/usdAG/sunrpc/workflows/main%20Python%20CI/badge.svg?branch=main)
 ![](https://github.com/usdAG/sunrpc/workflows/develop%20Python%20CI/badge.svg?branch=develop)
-[![](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/usdAG/sunrpc/releases)
+[![](https://img.shields.io/badge/version-1.1.0-blue)](https://github.com/usdAG/sunrpc/releases)
 [![](https://img.shields.io/badge/build%20system-pip-blue)](https://pypi.org/project/sunrpc)
 ![](https://img.shields.io/badge/python-9%2b-blue)
 [![](https://img.shields.io/badge/license-GPL%20v3.0-blue)](https://github.com/usdAG/sunrpc/blob/main/LICENSE)
