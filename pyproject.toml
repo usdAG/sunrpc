@@ -4,7 +4,7 @@ build-backend = 'setuptools.build_meta'
 
 [project]
 name = 'sunrpc'
-version = '1.0.0'
+version = '1.1.0'
 authors = [ { name='Tobias Neitzel (@qtc_de)' }, ]
 description = 'sunrpc implements remote procedure calls according to RFC1057'
 readme = 'README.md'
